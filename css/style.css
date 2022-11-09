@@ -12,6 +12,10 @@
 	width:100%;
 	background-color:white;
 	z-index:1;
+	padding:20px;
+}
+.menu-bar{
+	font-size:30px;
 }
 header{
 	display:flex;
@@ -22,7 +26,7 @@ header{
 }
 header ul li{
 	display:inline-block;
-	padding:32px 15px;
+	padding:0px 10px;
 }
 header ul a{
 	text-decoration:none;
@@ -777,7 +781,7 @@ header ul li:hover a{
 	font-size:25px;
 }
 @media(min-width:320px){
-	header{
+	nav{
 		display:none;
 	}
 	.container{
@@ -863,7 +867,7 @@ header ul li:hover a{
 	}
 }
 @media(min-width:600px){
-	header{
+	nav{
 		display:flex;
 	}
 	.feature-row1{
@@ -873,6 +877,9 @@ header ul li:hover a{
 		width:83%;
 		margin:0 auto;
 		padding:0;
+	}
+	.menu-bar{
+		display:none;
 	}
 	/*section-1*/
 	.home-content{
