@@ -917,6 +917,9 @@ header ul li:hover a{
 	.feature-col13{
 		flex-direction:row;
 	}
+	.news-input input{
+		width:40%;
+	}
 }
 @media(min-width:1025px){
 	/*section-1*/
